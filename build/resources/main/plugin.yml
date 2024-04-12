@@ -1,0 +1,24 @@
+name: GiovanniFNAFCore
+version: '1.0-SNAPSHOT'
+main: giovannifnaf.giovannifnafcore.GiovanniFNAFCore
+api-version: '1.20'
+commands:
+  giovannifnafcore:
+    description: Comando principale
+    usage: /giovannifnafcore
+    permission: giovannifnaf.core-
+
+  vanish:
+    description: Mette in vanish
+    usage: /vanish
+    permission: giovannifnafcore.staff
+
+  cibo:
+    description: Ti da qualcosa da mangiare
+    usage: /cibo
+    permission: giovannifnafcore.cibo
+
+  removevanish:
+    description: Ti toglie l'invisibilità
+    usage: /removevanish
+    permission: giovannifnafcore.removevanish
